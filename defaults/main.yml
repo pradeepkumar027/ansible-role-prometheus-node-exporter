@@ -1,0 +1,7 @@
+---
+# defaults file for prometheus-node-exporter
+prometheus_node_exporter_version: "1.6.0"
+prometheus_node_exporter_installation_package_url: "https://github.com/prometheus/node_exporter/releases/download/v{{ prometheus_node_exporter_version }}/node_exporter-{{ prometheus_node_exporter_version }}.linux-amd64.tar.gz"
+prometheus_node_exporter_directories:
+- /tmp/prometheus
+firewalld_enabled: false
