@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: prometheus-node-exporter
+  role_name: prometheus_node_exporter
   author: Pradeep Kumar
   description: prometheus node export role for linux
   company: your company (optional)

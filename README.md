@@ -24,7 +24,7 @@ Example Playbook
     - name: install prometheus node exporter
       hosts: server
       roles:
-      - pradeepkumar027.prometheus-node-exporter
+      - pradeepkumar027.prometheus_node_exporter
 
 License
 -------
